@@ -7,7 +7,7 @@
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
-	<name>iewc-sapi_(1)</name>
+	<name>iewc-sapi</name>
 
 	<description/>
 	<properties>
@@ -147,17 +147,17 @@
 		<dependency>
 			<groupId>com.sap.conn.idoc</groupId>
 			<artifactId>com.sap.conn.idoc.sapidoc3</artifactId>
-			<version>3.0.21</version>
+			<version>3.1.7</version>
 		</dependency>
 		<dependency>
 			<groupId>com.sap.conn.jco</groupId>
 			<artifactId>com.sap.conn.jco.sapjco3</artifactId>
-			<version>3.0.21</version>
+			<version>3.1.7</version>
 		</dependency>
 		<dependency>
 			<groupId>com.sap.conn.jco</groupId>
 			<artifactId>libsapjco3</artifactId>
-			<version>3.0.21</version>
+			<version>3.1.7</version>
 			<classifier>external-library</classifier>
 			<type>so</type>
 		</dependency>
